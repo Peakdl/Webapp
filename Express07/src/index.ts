@@ -46,10 +46,6 @@ app.post("/api/Todo", (req, res) => {
 
 
 
-
-
-
-
 app.put('/api/put/:id', (req:Request,res:Response)=>{
     const {id}=req.params
     const UpdateUser=req.body as Iuser
